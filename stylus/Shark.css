@@ -1,7 +1,3 @@
-/* 
-@name Shark
-@description Shark
-*/
 @keyframes wobble {
     0% {
         transform: rotate(0deg)
