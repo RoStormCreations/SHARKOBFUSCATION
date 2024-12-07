@@ -1,7 +1,0 @@
---[[
-
-]]
-
-getgenv().Games = {
-  [8170900938] = "" -- Right 2 Fight
-}
