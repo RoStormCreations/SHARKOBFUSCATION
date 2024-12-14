@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Shark Obfuscator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Lua Obfuscator</h1>
+        <form id="luaForm">
+            <label for="luaCode">Enter Lua Code:</label>
+            <textarea id="luaCode" name="luaCode" rows="10" cols="50" onfocus="clearDefaultText(this)"
+                onblur="setDefaultText(this)">Enter your Lua code here.</textarea>
+            <br>
+            <input class="btn-hover color-8" type="submit" value="Obfuscate">
+        </form>
+        <button class="btn-hover color-8" id="downloadButton">Download Obfuscated Script</button>
+        <h2>Obfuscated Script:</h2>
+        <pre id="encodedOutput" readonly>Obfuscated code will appear here after obfuscation.</pre>
+    </div>
+    <script src="test.js"></script>
+    <script src="three.r134.min.js"></script>
+    <script src="vanta.dots.min.js"></script>
+    <script>
+    VANTA.DOTS({
+      el: "body",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xff0000,
+      color2: 0x0,
+      backgroundColor: 0x0,
+      size: 2.10,
+      spacing: 47.00
+    })
+    </script>
+</body>
+</html>
